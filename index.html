@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Android Engineer CV</title>
+    <style>
+        /* CSS Reset and Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 50px 60px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+        
+        /* Typography */
+        h1 {
+            font-size: 2.5rem;
+            color: #111;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            text-transform: uppercase;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: #111;
+            margin-bottom: 2px;
+        }
+        p {
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            font-size: 0.95rem;
+            margin-bottom: 6px;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 10px;
+        }
+        .contact-info a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Experience Section */
+        .job {
+            margin-bottom: 25px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        .job-title {
+            font-weight: 600;
+            color: #34495e;
+            font-style: italic;
+        }
+        .job-date {
+            font-size: 0.9rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        /* Skills Section */
+        .skills-list li {
+            margin-bottom: 4px;
+        }
+        .skills-category {
+            font-weight: 600;
+            color: #111;
+        }
+
+        /* Education Section */
+        .edu-item {
+            margin-bottom: 15px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background-color: #fff;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 0;
+                width: 100%;
+                max-width: 100%;
+            }
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>[Name]</h1>
+        <div class="contact-info">
+            Tampa, FL (Open to Remote) &bull; [phone] &bull; <a href="mailto:[email]">[email]</a><br>
+            <a href="[linked in url]" target="_blank">[linked in url]</a> &bull; <a href="[website]" target="_blank">[website]</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>Staff Android Engineer with 9 years of experience specializing in core mobile services, internal tooling, and complex hardware integrations. Recognized for building and scaling highly technical mobile development teams and establishing cross-functional communication strategies that align engineering with business goals. Excels at de-risking large-scale development bets, bridging the gap between hardware and software ecosystems, and architecting systems that ensure seamless maintainability and work continuation post-delivery.</p>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <ul class="skills-list">
+            <li><span class="skills-category">Programming Languages:</span> Kotlin, Kotlin DSL, Java, Swift, Gradle</li>
+            <li><span class="skills-category">Spoken Languages:</span> English (Bilingual Proficiency), Spanish (Native)</li>
+            <li><span class="skills-category">Android & Mobile Frameworks:</span> Android SDK, Coroutines, Jetpack Compose, MVVM/MVI, RxJava, Dagger/Hilt</li>
+            <li><span class="skills-category">Hardware & Telemetry:</span> POS Integration, Embedded Android, Bluetooth/BLE, Networking, IoT Protocols, Datadog, Grafana, Fusion 360</li>
+            <li><span class="skills-category">Tools & CI/CD:</span> Git, GitHub Actions, Jira, Agile, Shape Up</li>
+            <li><span class="skills-category">Leadership & Architecture:</span> System Design, Engineering Mentorship, Technical Conventions</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+
+        <div class="job">
+            <div class="job-header">
+                <h3>[Company Name] &bull; [City, State or Remote]</h3>
+            </div>
+            <div class="job-title">Staff Software Engineer (Jan 2024 – Present)</div>
+            <div class="job-title" style="margin-bottom: 8px;">Senior Software Engineer III & IV (Jan 2020 – Dec 2023)</div>
+            <ul>
+                <li><strong>Architected Hardware Telemetry at Scale:</strong> Designed and executed a comprehensive telemetry strategy for a fleet of <strong>30,000+ Android Point-of-Sale (POS) devices</strong>, defining the operational standard for hardware health, SLAs, and SLOs.</li>
+                <li><strong>Democratized Observability:</strong> Engineered persona-driven dashboards that transformed raw device telemetry into readable, actionable data, providing client-facing teams with manufacturing insights and enabling data-driven support operations.</li>
+                <li><strong>Bridged Hardware & Software Lifecycles:</strong> Established rigorous testing programs across <strong>EVT, DVT, and PVT</strong> hardware phases, creating a clear technical feedback loop with third-party manufacturers to ensure successful integrations.</li>
+                <li><strong>Accelerated Time-to-Market:</strong> Partnered directly with warehouse operations to identify bottlenecks and build internal tooling that streamlined hardware preparation, scaling customer installations and speeding up delivery.</li>
+                <li><strong>Drove Cross-Domain Alignment:</strong> Spearheaded communication initiatives that connected distinct engineering departments and business domains, fostering collaborative scalability strategies among Staff engineers and SMEs.</li>
+                <li><strong>Elevated Engineering Talent:</strong> Actively participated in internal mentorship programs dedicated to guiding Senior Engineers, fostering technical leadership and accelerating their progression toward Staff-level impact.</li>
+                <li><strong>Safeguarded the Technical Bar:</strong> Served as a core technical and system design interviewer, evaluating candidates' architectural proficiency and ensuring high talent density across the mobile engineering organization.</li>
+                <li><strong>De-risked Development Silos:</strong> Acted as the primary Subject Matter Expert (SME) for complex hardware integrations, proactively sharing knowledge across mobile development teams to eliminate single points of failure.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <h3>HyreCar &bull; [City, State or Remote]</h3>
+                <span class="job-date">Aug 2018 – Jan 2020</span>
+            </div>
+            <div class="job-title" style="margin-bottom: 8px;">Senior Android Engineer (Lead)</div>
+            <ul>
+                <li><strong>Architected Mobile Solutions:</strong> Led the end-to-end design and development of core Android applications, optimizing business flows and scaling the primary app to over <strong>50,000+ Google Play Store downloads</strong>.</li>
+                <li><strong>Engineered Embedded Systems:</strong> Expanded technical scope beyond standard mobile development by engineering embedded systems, bridging the gap between Android software and specialized hardware.</li>
+                <li><strong>Mentored Engineering Talent:</strong> Directed training programs for junior engineers, establishing best practices in code quality and accelerating team velocity.</li>
+                <li><strong>Managed Release Lifecycles:</strong> Owned full application management and deployment pipelines via the Google Play Store, ensuring stable rollouts and maintaining high app quality standards.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <h3>Naked Apps &bull; Irvine, CA</h3>
+                <span class="job-date">Jul 2018 – Aug 2018</span>
+            </div>
+            <div class="job-title" style="margin-bottom: 8px;">Mobile Engineer (Android & iOS)</div>
+            <ul>
+                <li><strong>Rapid MVP Development:</strong> Functioned as the Lead Android Developer in an Agile agency environment, engineering fully functional MVPs for diverse enterprise clients within tight 3-to-5-month delivery windows.</li>
+                <li><strong>Cross-Platform Execution:</strong> Contributed to both Android and iOS codebases and managed end-to-end Play Store deployments to accelerate client time-to-market.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <h3>Fitsmind &bull; Oslo, Norway</h3>
+                <span class="job-date">Mar 2017 – May 2017</span>
+            </div>
+            <div class="job-title" style="margin-bottom: 8px;">iOS Engineer</div>
+            <ul>
+                <li><strong>Modernized Legacy Architecture:</strong> Upgraded a specialized fitness application used by Olympic athletes, successfully migrating the core codebase from Objective-C to Swift 3.</li>
+                <li><strong>Drove Revenue Streams:</strong> Engineered robust In-App Purchase (IAP) flows with auto-renewable subscriptions, managing the full distribution lifecycle via App Store Connect and TestFlight.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        
+        <div class="edu-item">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>Specialization in Mobile Development<br>
+            <em>Full Sail University, USA</em></p>
+        </div>
+
+        <div class="edu-item">
+            <h3>Bachelor of Science in Electrical Engineering</h3>
+            <p>Specialization in Power Electronics<br>
+            <em>Instituto Politécnico Nacional (IPN), Mexico City</em></p>
+        </div>
+
+        <div class="edu-item">
+            <h3>Associate Degree in Audio Electronics</h3>
+            <p><em>Sala de Audio, Mexico City</em></p>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
