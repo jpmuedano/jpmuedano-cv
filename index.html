@@ -14,8 +14,8 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background-color: #f9f9f9;
+            color: #2d2d2d;
+            background-color: #f0f7f4;
             padding: 40px 20px;
         }
         .container {
@@ -23,30 +23,31 @@
             margin: 0 auto;
             background: #fff;
             padding: 50px 60px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 15px rgba(46, 139, 110, 0.08);
             border-radius: 8px;
+            border-top: 4px solid #3eb489;
         }
-        
+
         /* Typography */
         h1 {
             font-size: 2.5rem;
-            color: #111;
+            color: #1a1a1a;
             margin-bottom: 5px;
             text-transform: uppercase;
             letter-spacing: 1px;
         }
         h2 {
             font-size: 1.2rem;
-            color: #2c3e50;
+            color: #2a7d5e;
             text-transform: uppercase;
-            border-bottom: 2px solid #2c3e50;
+            border-bottom: 2px solid #3eb489;
             padding-bottom: 5px;
             margin-top: 30px;
             margin-bottom: 15px;
         }
         h3 {
             font-size: 1.1rem;
-            color: #111;
+            color: #1a1a1a;
             margin-bottom: 2px;
         }
         p {
@@ -61,11 +62,16 @@
             font-size: 0.95rem;
             margin-bottom: 6px;
         }
+        li strong {
+            color: #2a7d5e;
+        }
 
         /* Header Section */
         header {
             text-align: center;
             margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0efe8;
         }
         .contact-info {
             font-size: 0.9rem;
@@ -73,16 +79,19 @@
             margin-top: 10px;
         }
         .contact-info a {
-            color: #2980b9;
+            color: #2a7d5e;
             text-decoration: none;
         }
         .contact-info a:hover {
             text-decoration: underline;
+            color: #3eb489;
         }
 
         /* Experience Section */
         .job {
             margin-bottom: 25px;
+            padding-left: 15px;
+            border-left: 3px solid #c8e6d8;
         }
         .job-header {
             display: flex;
@@ -92,7 +101,7 @@
         }
         .job-title {
             font-weight: 600;
-            color: #34495e;
+            color: #34695a;
             font-style: italic;
         }
         .job-date {
@@ -107,7 +116,7 @@
         }
         .skills-category {
             font-weight: 600;
-            color: #111;
+            color: #2a7d5e;
         }
 
         /* Education Section */
@@ -123,9 +132,13 @@
             }
             .container {
                 box-shadow: none;
+                border-top: none;
                 padding: 0;
                 width: 100%;
                 max-width: 100%;
+            }
+            .job {
+                border-left-color: #999;
             }
             a {
                 text-decoration: none;
